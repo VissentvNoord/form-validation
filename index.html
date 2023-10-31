@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form validation sample</title>
+        <script defer src="index.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <h1>Create Account</h1>
+            <form id="form">
+                <div class="form-element">
+                    <label>E-mail</label>
+                    <input id="email" type="email" placeholder="myemail@email.com">
+                    <br>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-element">
+                    <label>Username</label>
+                    <input id="username" type="text" placeholder="myname123">
+                    <br>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-element">
+                    <label>Password</label>
+                    <input id="password" type="text">
+                    <br>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-element">
+                    <label>Confirm password</label>
+                    <input id="confirm-password" type="text">
+                    <br>
+                    <small>Error message</small>
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
