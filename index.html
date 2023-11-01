@@ -25,19 +25,28 @@
 
                 <div class="form-element">
                     <label>Password</label>
-                    <input id="password" type="text">
+                    <input id="password" type="password">
                     <br>
                     <small>Error message</small>
                 </div>
 
                 <div class="form-element">
                     <label>Confirm password</label>
-                    <input id="confirm-password" type="text">
+                    <input id="confirm-password" type="password">
+                    <br>
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-element">
+                    <label>ZIP Code</label>
+                    <input id="zip-code" type="text" title="Five digit zip code" placeholder="12345-1234">
                     <br>
                     <small>Error message</small>
                 </div>
 
                 <button>Submit</button>
+
+                <div id="valid-indicator" class="hidden"></div>
             </form>
         </div>
     </body>
